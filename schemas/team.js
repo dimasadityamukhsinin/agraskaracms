@@ -25,7 +25,11 @@ export default {
       title: 'Instagram',
       name: 'instagram',
       type: 'url',
-      validation: (Rule) => Rule.required(),
+    },
+    {
+      title: 'Linkedin',
+      name: 'linkedin',
+      type: 'url',
     },
   ],
   preview: {

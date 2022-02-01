@@ -21,6 +21,33 @@ export default {
       type: 'email',
       validation: (Rule) => Rule.required(),
     },
+    {
+      title: 'Whatsapp',
+      name: 'whatsapp',
+      type: 'url',
+      validation: (Rule) => Rule.required(),
+    },
+    {
+      title: 'Facebook',
+      name: 'facebook',
+      type: 'url',
+    },
+    {
+      title: 'Instagram',
+      name: 'instagram',
+      type: 'url',
+    },
+    {
+      title: 'Linkedin',
+      name: 'linkedin',
+      type: 'url',
+    },
+    {
+      title: 'Youtube',
+      name: 'youtube',
+      type: 'url',
+      validation: (Rule) => Rule.required(),
+    },
   ],
   preview: {
     prepare() {
